@@ -12,6 +12,7 @@ nav{
 }
 ul{
     font-size: large;
+    margin-left: 70px;
 }
 ul li{
     list-style: none;
@@ -26,4 +27,7 @@ ul li a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: red;
     padding: 0 25px;
+}
+ul li a:hover{
+    color: blue;
 }
