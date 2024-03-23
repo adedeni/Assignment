@@ -1,6 +1,6 @@
 /*default browser reset code*/
 
-/*html, body, div, span, object, iframe,
+html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
 del, dfn, em, img, ins, kbd, q, samp,
@@ -52,14 +52,14 @@ a {
     background:transparent;
 }
 
-/* change colours to suit your needs 
+/* change colours to suit your needs*/ 
 ins {
     background-color:#ff9;
     color:#000;
     text-decoration:none;
 }
 
-/* change colours to suit your needs 
+/* change colours to suit your needs*/ 
 mark {
     background-color:#ff9;
     color:#000;
@@ -81,7 +81,7 @@ table {
     border-spacing:0;
 }
 
-/* change border colour to suit your needs
+/* change border colour to suit your needs*/
 hr {
     display:block;
     height:1px;
@@ -93,7 +93,7 @@ hr {
 
 input, select {
     vertical-align:middle;
-}*/
+}
 /*this is where my styling start*/
 /*this is styling for mobile version*/
 /*header segment*/
@@ -139,6 +139,7 @@ header .music_logo{
     display: none;
 }
 /*styling for index page*/
+/* banner */
 .index_header{
     width: 100%;
     height: calc(100vh - 100px);
@@ -150,7 +151,7 @@ header .music_logo{
 }
 .index_header h1 {
     font-family: catamaran;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 900;
     color: brown;
     text-align: center;
@@ -158,7 +159,7 @@ header .music_logo{
 }
 .index_header h2 {
     font-family: Cormorant Garamond;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 100;
     font-style: oblique;
     color: brown;
