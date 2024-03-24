@@ -136,6 +136,11 @@ header nav ul li a{
 header .music_logo{
     display: none;
 }
+/* designing for a destop version frame */
+@media only screen and (mini-with: 1000px){
+    
+}
+
 /*styling for index page*/
 /* banner */
 .index_header{
@@ -176,6 +181,7 @@ header .music_logo{
     margin: 30px 30px 0px;
     width: calc(100% -60px);
     height: 80px;
+    display: block;
     background-color: wheat;
 }
 .mainbodybox div h3 {
@@ -187,6 +193,7 @@ header .music_logo{
     text-align: center;
     text-shadow: 2px 2px 3px #fff;
 }
+/* this is styling for other pages like booking page */
 .a {
     color: brown;
 }
@@ -208,3 +215,37 @@ header .music_logo{
 #zz h6 {
     background-color: rgb(255, 0, 208);
     }
+/* styling for footer section */
+footer{
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: brown;
+    overflow: hidden;
+}
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+footer ul li {
+    display: block;
+    list-style: none;
+}
+footer ul li a {
+    font-family: "Catamaran";
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+}
+.footersecondmenu {
+    display: none;
+}
+.smlogo{
+    width: 50px;
+    float: right;
+    line-height: 28px;
+}
+.smlogo img {
+    width: 50%;  
+}
