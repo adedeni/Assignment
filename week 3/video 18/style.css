@@ -128,7 +128,7 @@ header nav ul li{
     padding: 0px 16px;
 }
 header nav ul li a{
-    font-family: Catamaran;
+    font-family: "Catamaran";
     font-size: 18px;
     font-weight: 600;
     color: brown;
@@ -137,8 +137,36 @@ header .music_logo{
     display: none;
 }
 /* designing for a destop version frame */
-@media only screen and (mini-with: 1000px){
-    
+@media only screen and (min-width: 1000px){
+    header .header_logo {
+        margin:31px 0px;
+        text-align: left;
+        line-height: 36px;
+        padding: 0px 20px 0px 40px;
+        border-right: 3px solid brown;
+        float: left;
+        
+    }
+    header nav ul{
+        margin: 20px 0px 0px 20px;
+        float: left;
+    }
+    header nav ul li a{
+        line-height: 60px;
+    }
+    header .music_logo{
+        display: block;
+        font-family: "Catamaran";
+        font-size: 18px;
+        font-weight: 600;
+        color: brown;
+        line-height: 36px;
+        border: 1px solid brown;
+        float: right;
+        margin-right: 40px;
+        margin-top: 30px;
+        padding: 0px 20px;
+    }
 }
 
 /*styling for index page*/
@@ -151,7 +179,6 @@ header .music_logo{
     background-position: center;
     background-size: cover;
     display: table;
-    
 }
 .centerbannervertically{
     display: table-cell;
@@ -215,6 +242,41 @@ header .music_logo{
 #zz h6 {
     background-color: rgb(255, 0, 208);
     }
+    /* styling for header banner for laptop version */
+    @media only screen and (min-width: 1000px){
+        .wrapper {
+            width: 1000px;
+            margin: 0 auto;
+        }
+        .index_header{
+            width: 100%;
+            height: 400px;
+        }
+        .index_header h2 {
+            display: block;
+            width: 560px;
+            margin: 0 auto;
+        }
+        .mainbodybox {
+            overflow: hidden;
+        }
+        .mainbodybox div {
+            margin: 20px 10px 0px;
+            height: 230px;
+            display: block;
+            background-color: wheat;
+            float: left;
+        }
+        .mainbodyboxsquare{
+            width: calc(25% - 20px) !important;
+        }
+        .mainbodyboxrectangle{
+            width: calc(50% - 20px) !important;
+        }
+        .mainbodybox div h3 {
+            line-height: 230px;
+        }
+    }
 /* styling for footer section */
 footer{
     width: calc(100% - 80px);
@@ -249,3 +311,18 @@ footer ul li a {
 .smlogo img {
     width: 50%;  
 }
+
+@media only screen and (min-width: 1000px) {
+    .footersecondmenu {
+        display: block;
+    }
+    footer ul {
+         padding-left: 30px;
+    }
+    footer ul li p {
+        font-family: "Catamaran";
+        font-size: 16px;
+        color: white;
+        line-height: 30px;
+    }
+    }
