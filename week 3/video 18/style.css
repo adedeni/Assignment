@@ -100,8 +100,16 @@ input, select {
 *{
     text-decoration: none;
 }
-
+/* this is to resize the header when you fix it to stay for scrolling */
+main{
+    padding-top: 100px;
+}
+/* position top left and right is to make header stays while scrolling through the pages */
 header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     background-color: rgb(249, 238, 217);
     width: 100%;
     height: 100px;
@@ -242,7 +250,8 @@ header .music_logo{
 #zz h6 {
     background-color: rgb(255, 0, 208);
     }
-    /* styling for header banner for laptop version */
+/* styling for extra pages ends here */
+/* styling for header banner for laptop version */
     @media only screen and (min-width: 1000px){
         .wrapper {
             width: 1000px;
@@ -277,6 +286,35 @@ header .music_logo{
             line-height: 230px;
         }
     }
+    /* THIS IS THE STYLING FOR THE MUSIC AND ALBUM PAGE (ONLY THE MAIN BODY) */
+    .musicboxes {
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    .musicboxes h2 {
+        font-family: "catamaran";
+        font-size: 28px;
+        font-weight: 700;
+        color: brown;
+    }
+    .musicboxes .musicbox {
+        /* to calculate the width of the boxes you have to subtract the margin space of all boxes which is 20px per box making 80px for 4 boxes from the wrapper width which is 1000px,then divide your answer by number of box which is 920/4= 230px*/
+        float: left;
+        width: 230px;
+        height: 230px;
+        margin: 20px 10px 0px;
+        background-color: wheat;
+        }
+        .musicboxes .musicbox p {
+            padding-top: 45%;
+            font-family: "catamaran";
+            font-size: 23px;
+            font-weight: 700;
+            text-align: center;
+            color: brown;
+            text-shadow: 2px 2px 3px #fff;
+        }
+    /* THE STYLING FOR THE MUSIC AND ALBUM PAGE MAIN BODY ENDS HERE */
 /* styling for footer section */
 footer{
     width: calc(100% - 80px);
@@ -315,6 +353,7 @@ footer ul li a {
 @media only screen and (min-width: 1000px) {
     .footersecondmenu {
         display: block;
+        font-weight: 500;
     }
     footer ul {
          padding-left: 30px;
@@ -322,6 +361,7 @@ footer ul li a {
     footer ul li p {
         font-family: "Catamaran";
         font-size: 16px;
+        font-weight: 900;
         color: white;
         line-height: 30px;
     }
