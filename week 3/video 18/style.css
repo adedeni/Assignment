@@ -292,6 +292,7 @@ header .music_logo{
         margin-bottom: 20px;
     }
     .musicboxes h2 {
+        margin-top: 20px;
         font-family: "catamaran";
         font-size: 28px;
         font-weight: 700;
@@ -314,6 +315,7 @@ header .music_logo{
             color: brown;
             text-shadow: 2px 2px 3px #fff;
         }
+        /* i need to add an extra contact banner here which the design is on my desktop */
     /* THE STYLING FOR THE MUSIC AND ALBUM PAGE MAIN BODY ENDS HERE */
 /* styling for footer section */
 footer{
