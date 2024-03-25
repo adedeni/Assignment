@@ -147,6 +147,7 @@ header .music_logo{
 /* designing for a destop version frame */
 @media only screen and (min-width: 1000px){
     header .header_logo {
+        font-family: "Catamaran";
         margin:31px 0px;
         text-align: left;
         line-height: 36px;
@@ -315,6 +316,39 @@ header .music_logo{
             color: brown;
             text-shadow: 2px 2px 3px #fff;
         }
+        /* styling for the video */
+        .video h2 {
+            margin-top: 20px;
+            font-family: "catamaran";
+            font-size: 28px;
+            font-weight: 700;
+            color: brown;
+            text-align: center;
+        }
+        .video video{
+            margin: 0 auto;
+            display: block;
+            padding: 30px 0px;
+            width: 55%;
+        }
+        .video article h3 {
+            margin-top: 20px;
+            font-family: "catamaran";
+            font-size: 23px;
+            font-weight: 700;
+            color: brown;
+        }
+        .video article div p {
+            margin-top: 20px;
+            font-family: "catamaran";
+            font-size: 18px;
+            font-weight: 700;
+            color: brown;
+            line-height: 26px;
+            column-count: 3;
+            column-gap: 30px;
+        }
+
         /* i need to add an extra contact banner here which the design is on my desktop */
     /* THE STYLING FOR THE MUSIC AND ALBUM PAGE MAIN BODY ENDS HERE */
 /* styling for footer section */
