@@ -330,6 +330,7 @@ header .music_logo{
             display: block;
             padding: 30px 0px;
             width: 55%;
+            
         }
         .video article h3 {
             margin-top: 20px;
@@ -339,7 +340,7 @@ header .music_logo{
             color: brown;
         }
         .video article div p {
-            margin-top: 20px;
+            margin: 20px 0px 40px;
             font-family: "catamaran";
             font-size: 18px;
             font-weight: 700;
@@ -348,14 +349,36 @@ header .music_logo{
             column-count: 3;
             column-gap: 30px;
         }
-
-        /* i need to add an extra contact banner here which the design is on my desktop */
+.contactbox{
+    width: 1000px;
+    height: 230px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: wheat;
+}
+.contactbox div h2 {
+        margin-top: 20px;
+        font-family: "catamaran";
+        font-size: 28px;
+        font-weight: 700;
+        color: brown;
+        text-align: center;
+        line-height: 80px;
+}
+.contactbox div p {
+    font-family: "Catamaran";
+    font-size: 16px;
+    font-weight: 60 0;
+    line-height: 30px;
+    color: brown;
+    text-align: center;
+    padding: 0px 90px 0px 90px;
+}
     /* THE STYLING FOR THE MUSIC AND ALBUM PAGE MAIN BODY ENDS HERE */
 /* styling for footer section */
 footer{
     width: calc(100% - 80px);
     padding: 40px 40px;
-    margin-top: 20px;
     background-color: brown;
     overflow: hidden;
 }
