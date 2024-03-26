@@ -304,7 +304,7 @@ header .music_logo{
         .musicboxes div{
             width: 100%;
             margin: 0 auto;
-            padding-left: 10px;
+            padding-left: 17px;
         }
         .musicboxes .musicbox {
             float: left;
@@ -325,6 +325,9 @@ header .music_logo{
     @media only screen and (min-width: 1000px){
         .musicboxes h2 {
             text-align: left;
+        }
+        .musicboxes div {
+            padding: 0px;
         }
         .musicboxes .musicbox {
             /* to calculate the width of the boxes you have to subtract the margin space of all boxes which is 20px per box making 80px for 4 boxes from the wrapper width which is 1000px,then divide your answer by number of box which is 920/4= 230px*/
