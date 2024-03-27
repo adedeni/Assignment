@@ -178,7 +178,7 @@ header .music_logo{
     }
 }
 /* styling for flexbox gallery */
-.gallery{
+.galleryheader{
     font-family: "Catamaran";
     font-size: 28px;
     font-weight: 700;
@@ -186,8 +186,25 @@ header .music_logo{
     text-align: center;
     padding: 20px;
 }
-@media only screen and (min-width: 1000px){
-    text-align: left;
+.galleryflexbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.galleryitems {
+    flex-basis: 90%;
+    margin: 10px;
+}
+.galleryitems img {
+    width: 100%;
+}
+@media only screen and (min-width: 762px){
+    .galleryheader{
+        text-align: left;
+    }
+    .galleryitems {
+        flex-basis: 300px;
+    }
 }
 
 /* contact box styling */
