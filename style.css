@@ -185,7 +185,6 @@ header .music_logo{
     flex-flow: row wrap;
     justify-content: space-evenly;
     gap: 50px;
-    background-color: wheat;
 }
 .musicboxes {
     margin-bottom: 20px;
@@ -222,7 +221,7 @@ header .music_logo{
         }
 @media only screen and (min-width: 1000px){
     .musicboxes h2 {
-        text-align: left;
+        text-align: center;
     }
     .musicboxes div {
         padding: 0px;
