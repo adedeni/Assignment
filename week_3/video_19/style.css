@@ -372,6 +372,7 @@ header .music_logo{
             column-count: 3;
             column-gap: 30px;
         }
+        /* Contact section styling */
         .contactbox{
             width: 100%;
             height: 230px;
