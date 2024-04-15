@@ -1,14 +1,13 @@
 body{
-    background-color: white;
-    margin: 20%;
+    background-color: orange;
+    margin: 15%;
 }
 table{
     width: 100%;
-    border: 1px double black;
     color: white;
-    border-collapse: collapse;
+    /* border-spacing: 100px; */
 }
-tr th{
+th{
     text-align: left;
     background-color: #cccc;
 }
@@ -22,4 +21,11 @@ tr:nth-child(even) {
 }
 caption{
     color: black;
+}
+table,th,td{
+    border: 2px solid aqua;
+    border-collapse: collapse;
+}
+th,td, caption{
+    padding: 11px;
 }
