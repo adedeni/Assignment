@@ -1,0 +1,25 @@
+body{
+    background-color: white;
+    margin: 20%;
+}
+table{
+    width: 100%;
+    border: 1px double black;
+    color: white;
+    border-collapse: collapse;
+}
+tr th{
+    text-align: left;
+    background-color: #cccc;
+}
+tr:nth-child(odd) {
+    background-color: brown;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: black;
+    text-align: center;
+}
+caption{
+    color: black;
+}
