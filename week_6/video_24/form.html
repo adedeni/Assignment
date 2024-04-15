@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <section>
-        <form action="#" method="get">
+        <form action="form.php" method="post">
             <div>
                 <label for="text">Text Input</label>
                 <input type="text" name="textinput" id="#" placeholder="Input Text Here" required>
@@ -19,15 +19,16 @@
            </div>
            <div>
             <label for="radioInput">Radio Input</label>
-            <input type="radio" name="radioInput" id="#">
-            <input type="radio" name="radioInput" id="#">
-            <input type="radio" name="radioInput" id="#">
-            <input type="radio" name="radioInput" id="#">
+            <br>
+            ONE<input type="radio" name="radioInput" id="#">
+            TWO<input type="radio" name="radioInput" id="#">
+            THREE<input type="radio" name="radioInput" id="#">
+            FOUR<input type="radio" name="radioInput" id="#" checked>
            </div>
            <div>
             <label for="select">Select Option</label>
            <select name="selectinput" id="#">
-            <option value="1">--Select Option--</option>
+            <option value="none">--Select Option--</option>
             <option value="1">Option 1</option>
             <option value="2">Option 2</option>
             <option value="3">Option 3</option>
@@ -39,7 +40,10 @@
             <input type="password" name="password" placeholder="Input Password Here" required>
            </div>
            <div>
-            <input type="submit">
+            <input type="submit" name="submit">
+           </div>
+           <div>
+            <textarea name="message" id="#" cols="30" rows="10" placeholder="write your SOP here!"></textarea>
            </div>
         </form>
     </section>
