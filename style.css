@@ -219,6 +219,21 @@ header .music_logo{
             color: brown;
             text-shadow: 2px 2px 3px #fff;
         }
+    .error404{
+        text-align: center;
+        line-height: 230%;
+        margin: 8%;
+        font-weight: 900;
+        font-family: "catamaran";
+        color: brown;
+    }
+    button{
+        font-weight: 900;
+        font-family: "catamaran";
+        color: brown;
+        background-color: wheat;
+        border-radius: 5px;
+    }
 @media only screen and (min-width: 1000px){
     .musicboxes h2 {
         text-align: center;
