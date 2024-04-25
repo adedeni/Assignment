@@ -13,9 +13,15 @@
         <a href="index.html" class="header_logo">Adedeni's</a>
         <nav>
             <ul>
-                <li><a href="porfolio.html">Portfolio</a></li>
+                <li><a href="#">Portfolio</a></li>
                 <li><a href="about.html">About Me</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a>
+                    <ul>
+                        <li><a href="#">First Page</a></li>
+                        <li><a href="#">Page Alpha</a></li>
+                        <li><a href="#">Hamza Portfolio</a></li>
+                    </ul>
+                </li>
             </ul>
             <a href="music.html" class="music_logo">Works</a>
         </nav>
@@ -325,6 +331,23 @@
                     </div>
                 </a>
             </div>
+            <div id="map"></div>
+            <script>
+                function initMap() {
+                    var location = {
+                        lat: 7.348720, lng: 3.879290
+                    };
+                    var map = new google.maps.Map(document.getElementsById("map"), {
+                        zoom: 4,
+                        center: location
+                    });
+                    var marker = new google.maps.Marker({
+                        position: location,
+                        map: map
+                    });
+                }
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=-google-api-key&callback=initMap"></script>
         </section>
         <section class="contactbox">
             <div class="wrapper">
@@ -333,7 +356,7 @@
                 </h2>
                 <p>Adedeni is a budding web developer, currently honing my skills in HTML and CSS. I'm passionate about creating responsive and user-friendly websites. Check out my projects on GitHub. For inquiries, email me at adeshinaolayodemubaraq@gmail.com or call me at 09036176161</p>
                </div>
-        </section>
+            </section>
     </main>
 <div class="wrapper">
 <footer>

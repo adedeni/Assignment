@@ -157,11 +157,21 @@ header .music_logo{
         
     }
     header nav ul{
-        margin: 20px 0px 0px 20px;
+        margin: 40px 0px 0px 20px;
         float: left;
     }
+    header nav ul li{
+        /* padding: 20px 0px; */
+        float: left;
+        position: relative;
+    }
     header nav ul li a{
-        line-height: 60px;
+        
+
+    }
+    header nav ul li ul{
+        display: block;
+        position: absolute;
     }
     header .music_logo{
         display: block;
@@ -251,6 +261,12 @@ header .music_logo{
             margin: 0 auto;
         }
 }
+/* syling for map */
+#map{
+    height: 300px;
+    width: 100%;
+}
+
  /* Contact section styling */
  .contactbox{
     width: 100%;
